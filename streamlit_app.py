@@ -6,6 +6,7 @@ import os
 # import llama_index
 # import langchain
 import textwrap
+import PyPDF2
 
 # from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 # from langchain.chat_models import ChatOpenAI
@@ -15,7 +16,7 @@ os.environ["OPENAI_API_KEY"] = '23aHHyoox2XgmbFO'
 
 # Leer los PDFs
 # pdf = SimpleDirectoryReader('datos').load_data()
-pdf = PyPDF2.PdfReader('example.pdf')
+pdf = PyPDF2.PdfReader('ResumenTelefonica.pdf')
 
 with st.sidebar:
     st.title('🤖💬 Chatbot de Angel Gonzalez E')
