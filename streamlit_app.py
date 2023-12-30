@@ -6,7 +6,7 @@ import os
 # import llama_index
 # import langchain
 import textwrap
-import PyPDF2
+# import PyPDF2
 
 # from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 # from langchain.chat_models import ChatOpenAI
