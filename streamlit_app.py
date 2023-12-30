@@ -2,6 +2,15 @@
 
 import openai
 import streamlit as st
+from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
+from langchain.chat_models import ChatOpenAI
+import textwrap
+
+# cambiar por tu API de OPENAI
+os.environ["OPENAI_API_KEY"] = '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'
+
+# Leer los PDFs
+pdf = SimpleDirectoryReader('datos').load_data()
 
 with st.sidebar:
     st.title('🤖💬 Chatbot de Angel Gonzalez E')
