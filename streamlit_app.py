@@ -4,16 +4,16 @@ import openai
 import streamlit as st
 
 with st.sidebar:
-    st.title('🤖💬 OpenAI Chatbot')
+    st.title('🤖💬 Chatbot de Angel Gonzalez E')
     if 'OPENAI_API_KEY' in st.secrets:
         st.success('API key already provided!', icon='✅')
         openai.api_key = st.secrets['OPENAI_API_KEY']
     else:
-        openai.api_key = st.text_input('Enter OpenAI API token:', type='password')
+        openai.api_key = st.text_input('Escribe el OpenAI API token:', type='password')
         if not (openai.api_key.startswith('sk-') and len(openai.api_key)==51):
-            st.warning('Please enter your credentials!', icon='⚠️')
+            st.warning('Dame tus credenciales!', icon='⚠️')
         else:
-            st.success('Proceed to entering your prompt message!', icon='👉')
+            st.success('Ya puedes preguntarme!', icon='👉')
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
