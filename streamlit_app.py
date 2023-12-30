@@ -15,8 +15,8 @@ import textwrap
 os.environ["OPENAI_API_KEY"] = '23aHHyoox2XgmbFO'
 
 # Leer los PDFs
-# pdf = SimpleDirectoryReader('datos').load_data()
-pdf = PyPDF2.PdfReader('ResumenTelefonica.pdf')
+pdf = SimpleDirectoryReader('datos').load_data()
+# pdf = PyPDF2.PdfReader('ResumenTelefonica.pdf')
 
 with st.sidebar:
     st.title('🤖💬 Chatbot de Angel Gonzalez E')
