@@ -3,11 +3,11 @@
 import openai
 import streamlit as st
 import os
-import llama_index
+# import llama_index
 import langchain
 import textwrap
 
-from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
+# from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
 from langchain.chat_models import ChatOpenAI
 
 # cambiar por tu API de OPENAI
