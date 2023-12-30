@@ -1,2 +1,8 @@
 streamlit
+pypdf
+PyPDF2
+cohere
+tiktoken
 openai
+langchain
+llama-index
