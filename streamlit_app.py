@@ -4,14 +4,14 @@ import openai
 import streamlit as st
 import os
 # import llama_index
-import langchain
+# import langchain
 import textwrap
 
 # from llama_index import GPTVectorStoreIndex, SimpleDirectoryReader, LLMPredictor, ServiceContext
-from langchain.chat_models import ChatOpenAI
+# from langchain.chat_models import ChatOpenAI
 
 # cambiar por tu API de OPENAI
-os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '23aHHyoox2XgmbFO'
 
 # Leer los PDFs
 pdf = SimpleDirectoryReader('datos').load_data()
