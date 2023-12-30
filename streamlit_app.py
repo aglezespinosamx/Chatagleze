@@ -15,7 +15,7 @@ import textwrap
 os.environ["OPENAI_API_KEY"] = '23aHHyoox2XgmbFO'
 
 # Leer los PDFs
-from 
+ 
 # pdf = SimpleDirectoryReader('datos').load_data()
 # pdf = PyPDF2.PdfReader('ResumenTelefonica.pdf')
 
