@@ -8,7 +8,7 @@ st.set_page_config(page_title="Chat de Datos Financieros", page_icon="🦙", lay
 openai.api_key = st.secrets.openai_key
 # st.secrets.openai_key
 st.title("Chatea con documentos 💬")
-st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
+# st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
