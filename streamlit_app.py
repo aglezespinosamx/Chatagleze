@@ -12,7 +12,7 @@ st.title("Chatea con la IA de Angel Gonzalez 💬")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Preguntame sobre la Constitucion mexicana y la Ley Federal de Telecom!"}
+        {"role": "assistant", "content": "Preguntame sobre la Constitucion mexicana y la Ley Federal de Telecomunicaciones!"}
     ]
 
 @st.cache_resource(show_spinner=False)
