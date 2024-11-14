@@ -6,6 +6,7 @@ from llama_index import SimpleDirectoryReader
 
 st.set_page_config(page_title="Chat de la Constitucion Mexicana y la Ley Federal de Telecom", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
+openai.api_key = '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'
 # st.secrets.openai_key
 st.title("Chatea con la IA de Angel Gonzalez 💬")
 # st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
