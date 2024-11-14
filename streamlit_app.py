@@ -5,9 +5,8 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
 
 st.set_page_config(page_title="Chatea con la IA de Angel Gonzalez", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
-openai.api_key = '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'
-st.title("Chatea con la IA de Angel Gonzalez 1 💬")
-st.title(openai.api_key)
+st.title("Chatea con la IA de Angel Gonzalez  💬")
+
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
         {
